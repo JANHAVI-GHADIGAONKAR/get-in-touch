@@ -75,3 +75,11 @@ textarea:focus{
     background-color: #83dd2d;
     transform: rotate(-12deg);
 }
+.static-cards{
+    margin-top: 50px;
+}
+@media screen and (min-width:738px) {
+    .static-cards{
+        margin-top: 0px;
+    }
+}
