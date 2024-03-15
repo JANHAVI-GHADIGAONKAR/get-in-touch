@@ -1,3 +1,7 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+
 .main-heading{
     text-align: center;
     margin-top: 50px;
@@ -14,4 +18,60 @@
 }
 input:focus{
     outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+.submit-button{
+    padding: 10px 30px;
+    background-color: #4B10A0;
+    border: #4B10A0;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 14px;
+}
+.message::placeholder{
+    padding-top: 70px;
+}
+.purple-card{
+    background-color: #4B10A0;
+    transform: rotate(-12deg);
+}
+.phone-svg{
+    display: block;
+    margin:  50px auto;
+}
+.phone-card{
+    margin: unset;
+    color: #fff;
+    font-size: 14px;
+}
+.click-btn{
+    font-size: 23px;
+    color: #fff;
+}
+.first-row-cards{
+    gap: 60px;
+}
+.card{
+    border-radius: 20px;
+}
+.blue-card{
+    background-color: #87CEFA;
+    transform: rotate(25deg);
+}
+.second-row-cards{
+    column-gap: 60px;
+    margin-top: 40px;
+}
+.yellow-color{
+    background-color: #ffd500;
+    transform: rotate(25deg);
+}
+.green-color{
+    background-color: #83dd2d;
+    transform: rotate(-12deg);
 }
