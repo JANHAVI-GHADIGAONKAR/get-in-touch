@@ -78,7 +78,7 @@ textarea:focus{
 .static-cards{
     margin-top: 50px;
 }
-@media screen and (min-width:738px) {
+@media screen and (min-width: 738px) {
     .static-cards{
         margin-top: 0px;
     }
