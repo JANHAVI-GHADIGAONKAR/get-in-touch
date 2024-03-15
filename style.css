@@ -1,0 +1,17 @@
+.main-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.heading{
+    font-weight: 700;
+}
+.bake-your-mark{
+    color: #4B10A0;
+}
+.input-style{
+    border-bottom: 1.5px solid #000 !important;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
