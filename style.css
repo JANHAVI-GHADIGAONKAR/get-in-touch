@@ -42,7 +42,7 @@ textarea:focus{
 }
 .phone-svg{
     display: block;
-    margin:  50px auto;
+    margin:  20px auto;
 }
 .phone-card{
     margin: unset;
@@ -54,18 +54,20 @@ textarea:focus{
     color: #fff;
 }
 .first-row-cards{
-    gap: 60px;
+    gap: 40px;
 }
 .card{
     border-radius: 20px;
+    width: 8rem;
 }
 .blue-card{
     background-color: #87CEFA;
     transform: rotate(25deg);
+    padding-top: 30px;
 }
 .second-row-cards{
-    column-gap: 60px;
-    margin-top: 40px;
+    row-gap: 60px;
+    margin-top: -40px;
 }
 .yellow-color{
     background-color: #ffd500;
@@ -76,10 +78,42 @@ textarea:focus{
     transform: rotate(-12deg);
 }
 .static-cards{
-    margin-top: 50px;
+    margin-top: 90px;
+    gap: 28px;
+    justify-content: center;
+}
+@media screen and (min-width: 425px) {
+    .static-cards{
+        gap: 45px;
+    }
 }
 @media screen and (min-width: 738px) {
     .static-cards{
         margin-top: 0px;
+        gap: 37px;
+
+    }
+    .card{
+        width: 9rem;
+    }
+    .phone-svg{
+        margin: 30px auto;
+    }
+    .blue-card{
+        padding-top: 40px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .static-cards{
+        gap: 60px;
+    }
+    .card{
+        width: 10rem;
+    }
+    .phone-svg{
+        margin: 50px auto;
+    }
+    .blue-card{
+        padding-top: 60px;
     }
 }
